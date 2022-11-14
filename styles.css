@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+
+
+
+
+.empresas-parceiras{
+    display:flex;
+    justify-content: space-around;
+    height:11.2rem;
+}
+
+.empresas-parceiras img {
+    
+    width:;
+}
+
+
+.servicos{
+    display: flex;
+    justify-content: space-around;
+    padding:3%;
+    line-height: 2.4rem;
+    
+    height: 42.4rem;
+    font-size: 1.6rem;
+}
+
+.servicos h5{
+    font-size: 1.6rem;
+}
+
+.servicos .servicos-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+footer {
+    background:#001e27;
+    height:80px;
+    padding:0px  6.4rem;
+    font-family: "Source Sans Pro", serif;
+    font-size:1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+footer p{
+    margin:0;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 14.4rem;
+}
