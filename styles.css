@@ -4,26 +4,89 @@
     border: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: "Source Sans Pro", serif;
   }
 
   html{
     font-size: 62.5%;
+   
   }
 
+.planos {
+    display:flex;
+    height:44rem;
+}
 
+.planos-card{
+    margin-right: 0;
+    padding: 5%;
+    height: 100%;
+    width:70%;
+    background:#001e27;
+    color: #ffffff;
+}
 
+.planos-light {
+    width:30%;
+}
+
+.planos-card h1{
+    font-size:4.5rem;
+    font-family: "Poppins", serif;
+}
+
+.planos-card p{
+    font-size: 2.25rem;
+    font-weight: 400;
+    
+}
+
+.botao-plano {
+    height: 40px;
+    display: flex;
+    gap: 20px
+
+}
+
+.planos-card div a{
+    width: 210px;
+    height: 40px;
+    border-right:10px;
+    border-radius: 1000px;
+    font-size: 1.6rem;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    padding-top:3.5%;
+    }
+
+   
+
+    .flex {
+        display: flex;
+        padding-top: 5%;
+    }
+
+    .flex img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .planos-light{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .planos-light img {
+        height:19.2rem;
+        width: 100%;
+    }
 
 .empresas-parceiras{
     display:flex;
     justify-content: space-around;
     height:11.2rem;
+    padding-top:2.5%;
 }
-
-.empresas-parceiras img {
-    
-    width:;
-}
-
 
 .servicos{
     display: flex;
