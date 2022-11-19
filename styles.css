@@ -69,6 +69,33 @@
     color: #4f5c5c;
 }
 
+.centralize {
+    width: 100%;
+    text-align: center;
+    padding:  0 5% 5% 5%;
+}
+
+.centralize h1 {
+    font-size: 3.2rem;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+}
+
+.centralize p {
+    font-size:2.25rem;
+    font-weight: 400;
+    color: #4f5c5c;
+    margin-bottom: 5%;
+   
+}
+
+.centralize img {
+    width: 90%;
+}
+
+
+
+
 .planos {
     display:flex;
     flex-wrap:wrap;
@@ -199,12 +226,16 @@ footer p{
 
 @media only screen and (max-width: 480px){
 
+    nav {
+        background: #001e27;
+    }
+
     .banner {
         display:flex;
         align-items: center;
         height:30rem;
         padding-left:5%;
-        text-align:justify;
+        text-align:center;
     }
 
     .banner div {
