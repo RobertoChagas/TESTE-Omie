@@ -12,6 +12,42 @@
    
   }
 
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    height:10rem;
+    width:100%;
+}
+
+.banner {
+    display:flex;
+    flex-wrap: wrap;
+    height: 556px;
+    width: 100%;
+}
+
+.banner div {
+    width: 50%;
+}
+
+.banner img {
+    width:55.6rem;
+    padding-left: 3%;
+}
+
+.banner h1 {
+    font-size: 4.5rem;
+    font-family: "Poppins" , serif;
+    font-weight: 400;
+    padding-top: 25%;
+}
+
+.banner p {
+    font-size:2.25rem;
+    font-weight:400;
+    color: #4f5c5c;
+}
+
 .planos {
     display:flex;
     flex-wrap:wrap;
@@ -141,6 +177,10 @@ footer p{
 
 
 @media only screen and (max-width: 480px){
+
+    .banner {
+        height:100rem;
+    }
 
     .planos {
         height: 40rem;
