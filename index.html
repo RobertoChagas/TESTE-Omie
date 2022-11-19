@@ -35,58 +35,90 @@
   </head>
   <body>
     <section>
-      
-
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid  nav-flex justify-content-space-between">
-            <div>
-              <a class="navbar-brand" href="#">
-                <img src="./assets/Brand.png" alt="Logo Omie" >
-              </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Empresas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contadores</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Planos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Funcionalidades</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Franquias</a>
-                </li>
-              </ul>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid  justify-content-space-between">
+          <div style="height: 10rem;
+                      width: 15rem;
+                      background: #001e27;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;">
+                      
+            <a class="navbar-brand" href="#">
+              <img src="./assets/Brand.png" alt="Logo Omie" />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <div class="links-nav">
               <div>
-                <a href="#" style="text-decoration:none; 
-                                    color:#001e27;
-                                    font-weight: bold;">
-                                    Entrar</a>
-                <a href="#" class="btn" style="background: #00e2f4;
-                                        color:#001e27;
-                                        border-radius: 1000px;">Experimente grátis</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Empresas</a>
               </div>
-              
+               <div>
+                   <a class="nav-link" href="#">Contadores</a>
+               </div> 
+               <div>
+                 <a class="nav-link" href="#">Planos</a>
+               </div>
+                <div>
+                    <a class="nav-link" href="#">Funcionalidades</a>
+                </div>
+                <div>
+                  <a class="nav-link" href="#">Franquias</a>
+                </div>
+            </div>
+            <div class="nav-div-btn" >
+              <a
+                href="#"
+                style="text-decoration: none; 
+                        color: #001e27; 
+                        font-weight: 700;"        
+              >
+                Entrar</a
+              >
+              <a
+                href="#"
+                class="btn"
+                style="
+                  width: 21.5rem;
+                  height: 4rem;
+                  background: #00e2f4;
+                  color: #001e27;
+                  border-radius: 1000px;
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  font-family: 'Poppins', serif;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+                >Experimente grátis</a
+              >
             </div>
           </div>
-        </nav>
-      
+        </div>
+      </nav>
+
       <header class="banner">
         <div>
-          <img src="./assets/rectangle-banner.png" alt="banner">
+          <img src="./assets/rectangle-banner.png" alt="banner" />
         </div>
         <div class="">
           <h1>Facilite a rotina da sua empresa</h1>
           <p>
-            Com o Sistema Omie, você otimiza seus processos financeiros e administrativos, e tem tempo para fazer sua empresa crescer.
+            Com o Sistema Omie, você otimiza seus processos financeiros e
+            administrativos, e tem tempo para fazer sua empresa crescer.
           </p>
         </div>
       </header>
@@ -102,99 +134,200 @@
     <section>9 fique por dentro</section>
     <section>10 faq</section>
     <section class="planos">
-        <div class="planos-card">
-            <h1>Plano para todo tipo de negócio</h1>
-            <p>
-                Com apenas algumas informações, indicamos o plano que melhor atende às necessidades da sua empresa.
-            </p>
-            <div class="flex">
-              <div class="botao-plano">
-                <div>
-                  <a href="#" class="btn " style="background: #FFFFFF;">Conheça os planos</a>
-                </div>
-                <div>
-                  <a href="#" class="btn" style="border: 2px solid #FFFFFF; color:#FFFFFF">Experimente grátis</a>
-                </div>
-              </div>
-              <!--
-                <img src="./assets/Dark.png" alt="detalhes em seta">
-              -->
-            </div>
-        </div>
-        <div class="planos-light">
-            <img src="./assets/Light.png" alt="detalhes em seta">
-        </div>
-    </section>
-    <section class="empresas-parceiras">
-        <img src="./assets/logo-astella.png" alt="logo empresa astella" style="height: 6.4rem;">
-        <img src="./assets/logo-riverwood.png" alt="logo empresa riverwood" style="height: 5.6rem;">
-        <img src="./assets/logo-softbank.png" alt="logo empresa softbank" style="height: 4rem;">
-        <img src="./assets/logo-AWS.png" alt="logo empresa AWS" style="height: 4rem;">
-    </section>
-    <section class="servicos row row-cols-4">
-        <div class="col servicos-card">
+      <div class="planos-card">
+        <h1>Plano para todo tipo de negócio</h1>
+        <p>
+          Com apenas algumas informações, indicamos o plano que melhor atende às
+          necessidades da sua empresa.
+        </p>
+        <div class="flex">
+          <div class="botao-plano">
             <div>
-                <h5>Contadores</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Omie para contadores</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Seja parceiro</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Produtos para contadores</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Clube de vantagens</a></li>
-                </ul>
+              <a href="#" class="btn" style="background: #ffffff"
+                >Conheça os planos</a
+              >
             </div>
             <div>
-                <h5>Franquias</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Benefícios</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Unidades franqueadas</a></li>
-                </ul>
+              <a
+                href="#"
+                class="btn"
+                style="border: 2px solid #ffffff; color: #ffffff"
+                >Experimente grátis</a
+              >
             </div>
           </div>
-          <div class="col servicos-card">
-            <div>
-                <h5>Empresas</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Omie para empresas</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Planos</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Omie.cash</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Produtos financeiros</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Treinamentos</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Loja de aplicativos</a></li>
-                </ul>
-            </div>
-            <div>
-                <h5>Segurança e privacidade</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Política de privacidade</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Segurança de informação</a></li>
-                </ul>
-            </div>
-          </div>    
-        <div class="col">
-                <h5>A Omie </h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quem somos</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Parceiros</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quem ama usa</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sala de imprensa</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carreiras</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Eventos</a></li>
-                </ul>
+          <!--
+                <img src="./assets/Dark.png" alt="detalhes em seta">
+              -->
         </div>
-        <div class="col">
-            <h5>Ajuda</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fw-bold list-group-item list-group-item-action" >Fale conosco</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fw-bold list-group-item list-group-item-action" >Experimente grátis</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fw-bold list-group-item list-group-item-action" >Cursos Omie.academy</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fw-bold list-group-item list-group-item-action" >Desenvolvedores</a></li>
-            </ul>
-        </div>
-         
-          
+      </div>
+      <div class="planos-light">
+        <img src="./assets/Light.png" alt="detalhes em seta" />
+      </div>
     </section>
-    
+    <section class="empresas-parceiras">
+      <img
+        src="./assets/logo-astella.png"
+        alt="logo empresa astella"
+        style="height: 6.4rem"
+      />
+      <img
+        src="./assets/logo-riverwood.png"
+        alt="logo empresa riverwood"
+        style="height: 5.6rem"
+      />
+      <img
+        src="./assets/logo-softbank.png"
+        alt="logo empresa softbank"
+        style="height: 4rem"
+      />
+      <img
+        src="./assets/logo-AWS.png"
+        alt="logo empresa AWS"
+        style="height: 4rem"
+      />
+    </section>
+    <section class="servicos row row-cols-4">
+      <div class="col servicos-card">
+        <div>
+          <h5>Contadores</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Omie para contadores</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Seja parceiro</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Produtos para contadores</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Clube de vantagens</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Franquias</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Benefícios</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Unidades franqueadas</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col servicos-card">
+        <div>
+          <h5>Empresas</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Omie para empresas</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Planos</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Omie.cash</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Produtos financeiros</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Treinamentos</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Loja de aplicativos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Segurança e privacidade</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Política de privacidade</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"
+                >Segurança de informação</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <h5>A Omie</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Quem somos</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Parceiros</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Quem ama usa</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Sala de imprensa</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Blog</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Carreiras</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-muted">Eventos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h5>Ajuda</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a
+              href="#"
+              class="nav-link p-0 fw-bold list-group-item list-group-item-action"
+              >Fale conosco</a
+            >
+          </li>
+          <li class="nav-item mb-2">
+            <a
+              href="#"
+              class="nav-link p-0 fw-bold list-group-item list-group-item-action"
+              >Experimente grátis</a
+            >
+          </li>
+          <li class="nav-item mb-2">
+            <a
+              href="#"
+              class="nav-link p-0 fw-bold list-group-item list-group-item-action"
+              >Cursos Omie.academy</a
+            >
+          </li>
+          <li class="nav-item mb-2">
+            <a
+              href="#"
+              class="nav-link p-0 fw-bold list-group-item list-group-item-action"
+              >Desenvolvedores</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <footer>
       <img src="./assets/Brand.png" alt="logo" />
