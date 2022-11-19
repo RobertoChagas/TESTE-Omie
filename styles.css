@@ -43,8 +43,8 @@
 .banner {
     display:flex;
     flex-wrap: wrap;
-    height: 556px;
-    width: 100%;
+    height: 55.6rem;
+    width: 100vw;
 }
 
 .banner div {
@@ -200,11 +200,29 @@ footer p{
 @media only screen and (max-width: 480px){
 
     .banner {
-        height:100rem;
+        display:flex;
+        align-items: center;
+        height:30rem;
+        padding-left:5%;
+        text-align:justify;
+    }
+
+    .banner div {
+        width: 100%;
+    }
+
+    .banner img {
+        display:none;
+    }
+
+    .banner h1 {
+        font-size: 4.5rem;
+        padding-top: 0;
     }
 
     .planos {
         height: 40rem;
+        text-align:justify;
     }
 
     .planos-card {
