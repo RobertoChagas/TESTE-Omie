@@ -93,6 +93,38 @@
     width: 90%;
 }
 
+.video {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.video .vid {
+    width: 60%;
+}
+
+.video .quote{
+    width: 40%;
+}
+
+.video img {
+    width: 57.5rem;
+    padding-right:0;
+}
+
+.video p {
+    font-size: 2.25rem;
+    color: #001e27;
+    align-text: justify;
+    padding-top: 20%;
+    width: 40rem;
+}
+
+.video h6 {
+    font-size:1.2rem;
+}
 
 
 
@@ -250,6 +282,12 @@ footer p{
         font-size: 4.5rem;
         padding-top: 0;
     }
+
+    .video div {
+        width: 100%;
+    }
+
+
 
     .planos {
         height: 40rem;
