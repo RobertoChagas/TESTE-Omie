@@ -129,6 +129,59 @@
 
 
 
+
+.faq {
+    display:flex;
+    flex-wrap: wrap;
+    height:50rem;
+    padding: 5%;
+    border: 2px solid red;
+    
+}
+
+.faq-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.faq-title {
+    width: 30%;
+    font-size: 3.2rem;
+    font-weight: 400;
+    font-family:"Poppins", serif;
+}
+
+.faq-accordion {
+    width: 50%;
+}
+
+.accordion-button {
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.accordion-body {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.faq-more {
+    display:flex;
+    justify-content: flex-end;
+    width:95%;
+    padding-top: 5%;
+}
+.faq a {
+    text-decoration:none;
+    color:#001e27;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: "Poppins", serif;
+}
+
+
 .planos {
     display:flex;
     flex-wrap:wrap;
@@ -259,9 +312,6 @@ footer p{
 
 @media only screen and (max-width: 480px){
 
-    nav {
-        background: #001e27;
-    }
 
     .banner {
         display:flex;
@@ -301,6 +351,20 @@ footer p{
     }
 
 
+
+    .faq {
+        height: 70rem;
+    }
+
+    .faq-title {
+        width: 90%;
+        text-align:center;
+        
+    }
+    
+    .faq-accordion {
+        width: 90%;
+    }
 
     .planos {
         height: 40rem;
