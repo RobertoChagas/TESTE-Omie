@@ -135,7 +135,7 @@
     flex-wrap: wrap;
     height:50rem;
     padding: 5%;
-    border: 2px solid red;
+    
     
 }
 
@@ -340,6 +340,12 @@ footer p{
 
     .video .vid {
         width: 100%;
+        display:flex;
+        justify-content: center;
+    }
+
+    .video img {
+        width: 28rem;
     }
 
     .video .quote {
